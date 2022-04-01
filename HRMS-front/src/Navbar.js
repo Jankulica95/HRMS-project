@@ -14,13 +14,11 @@ const Navbar = () => {
             <li>
               <a href="/">All Candidates</a>
             </li>
-
             <li>
               <a href="/addCandidate">Add Candidate</a>
             </li>
-
             <li>
-              <a href="#">Search</a>
+              <a href="/createSkill">Create Skill</a>
             </li>
           </ul>
         </div>

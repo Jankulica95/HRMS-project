@@ -5,6 +5,7 @@ import App from "./App";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import AddCandidate from "./AddCandidate";
 import Navbar from "./Navbar";
+import CreateSkill from "./CreateSkill";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -16,6 +17,9 @@ ReactDOM.render(
         </Route>
         <Route path="/addCandidate">
           <AddCandidate />
+        </Route>
+        <Route path="/createSkill">
+          <CreateSkill />
         </Route>
       </Switch>
     </Router>
